@@ -38,7 +38,7 @@ N이 주어졌을 때, N의 사이클의 길이를 구하는 프로그램을 작
 			count ++; // 사이클 ++
 			num = result; // 구한 수로 다시 시작 => 68(1), 84(2), 42(3), 26(4)
 			if(result == org) { // 구한 수(26)가 시작 수(26)와 같으면 반복 종료
-				break;
+				break; 
 			}
 		}	
 		System.out.println(count); // 사이클 출력
